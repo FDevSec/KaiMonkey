@@ -16,11 +16,11 @@ on:
 
   push:
 
-    branches: [ master ]
+    branches: [ accurics_8lpk6r4e ]
 
   pull_request:
 
-    branches: [ master ]
+    branches: [ accurics_8lpk6r4e ]
 
 
 
