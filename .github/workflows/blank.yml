@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo BLUBRACKET_INTEGRATION_KEY, ${BLUBRACKET_INTEGRATION_KEY}.
+          echo BLUBRACKET_INTEGRATION_KEY, ${{ secrets.BLUBRACKET_INTEGRATION_KEY }}.
